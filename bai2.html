@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 2</title>
+</head>
+<body>
+<script>
+
+    function tryRemoveFromArray(arr,index) {
+        for (let i = index;i< arr.length;i++){
+            arr[i] = arr[i + 1]
+        }
+        document.write(arr)
+    }
+    tryRemoveFromArray([12,6,3,7,21,5,7]) ;parseInt(prompt("nhap vi tri muon xoa"))
+</script>
+</body>
+</html>
